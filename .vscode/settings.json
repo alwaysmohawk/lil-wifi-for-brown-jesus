@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.includePath": [
+        "../libraries",
+        "/libraries",
+        "/Users/alexander/github/libraries"
+    ],
+    "C_Cpp.default.compilerPath": ""
+}
