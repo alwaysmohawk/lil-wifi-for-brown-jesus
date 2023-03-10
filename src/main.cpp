@@ -9,7 +9,7 @@ void setup() {
    */
   WiFi.mode(WIFI_STA);
     WiFi.begin(ssid, password);
-    
+
     Serial.begin(115200);
 
     // Wait for connection
@@ -20,7 +20,7 @@ void setup() {
     Serial.println("");
     Serial.print("Connected to ");
     Serial.println(ssid);
-    Serial.print("IP address: ");
+    Serial.print("IP address:: ");
     Serial.println(WiFi.localIP());
 
 }
